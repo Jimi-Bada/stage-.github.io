@@ -1,0 +1,604 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: Nunito;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0px 0.63rem 1.3rem rgba(36, 0, 70, 0.05);
+    align-items: flex-start;
+    min-width: 106rem;
+}
+.logo{
+    margin-left:  6rem;
+    display: flex;
+    align-items:flex-end;
+   
+}
+.nav-bar > nav{
+    margin: 2rem 10rem 0 0;
+}
+.nav-bar ul{
+    display: inline-flex;
+}
+.nav-bar > nav li{
+display:inline;
+ font-weight: 600;
+font-size: 1.2rem;
+line-height: 1.6rem;
+
+
+}
+.span{
+    border: 0.06rem solid #111111;
+    display: inline;
+}
+.bell{
+    padding-right: 2rem;
+}
+
+.fa-solid{
+    color: #C4C4C4;
+    font-size: 1.6rem;
+    padding-right: 0.5rem;
+    padding-left: 2rem;
+
+}
+.search-bar{
+    padding: 2rem 0 3rem 3rem;
+    
+}
+.search{
+ padding: 0.3rem 26rem 0.3rem 2rem;
+ border: 0.06rem solid #111111;
+ border-radius: 0.6rem;
+}
+.fa-magnifying-glass{
+    font-size: 0.8rem;
+    position: absolute;
+    left: 17rem;
+    top: 2.7rem;
+}
+/* home-section */
+.home-section{
+    background: #fff;
+    margin-top: 1rem;
+    padding-top: 3rem;
+}
+.menu > ul{
+    display: block;
+    list-style-type:none;
+    background: #fff;
+    display: table-header-group;
+    padding-top: 4rem;
+    height: 30rem;
+    box-shadow: 0 0.6rem 1.3rem rgba(36, 0, 70, 0.05);
+}
+.menu > ul > .box > li{
+    padding:0 1rem;
+    color: #240046;
+    font-weight: 700;
+font-size: 1.2rem;
+line-height: 1.6rem;
+
+    
+}
+
+.house{
+    color: #240046 !important;
+    background: #fff !important;
+}
+.messages{
+    color: #240046 !important;
+    background: #fff !important;
+}
+
+.box{
+    background:  #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.8rem 0.8rem 0.8rem 6rem;
+}
+.active{
+    background:  #240046!important;
+}
+.box > li > .fa-solid{
+    font-size: 1rem;
+    color: #fff;
+    background: linear-gradient(180deg, #240046 0%, #CFB2EB 100%);
+    padding:0.5rem ;
+    border-radius: 0.3rem; 
+    margin-right: 1rem; 
+}
+.box > li > img{
+    width: 2rem;
+    margin-right: 1rem;
+}
+.filter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -29rem;
+    z-index: 1;
+    margin-left: 21rem;
+}
+.filter > .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.category{
+border: 0.06rem solid #111111;
+border-radius: 0.6rem;
+padding: 0.5rem 26.5rem 0.5rem 0rem;
+
+}
+.popularity{
+    border: 0.06rem solid #111111;
+    border-radius: 0.6rem;
+    padding: 0.5rem 26.5rem 0.5rem 0rem;
+    margin-left: 7rem;
+    }
+    .showcase{
+        display: flex;
+    flex-direction: column;
+    }
+    .pictures-container{
+        display: flex;
+        max-width: 75rem;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1.3rem;
+        margin: 1rem 30rem 0rem 30rem;
+    }
+    .picture-container img{
+        width: 23.3rem;
+        object-fit: cover;
+        object-position: bottom;
+        padding: 1.13rem;
+    }
+    .fa-screencast{
+        font-size: 1.3rem;
+        background: #111111;
+    }
+    .icons{
+        margin: -1rem 0 0 1rem;
+    }
+    .bi-download{
+        margin-left: 1rem;
+    }
+    .thumbs-up{
+      width: 5%!important;
+        padding:0!important;
+        margin-left: 1rem;
+        
+    }
+    .thumbs-down{
+        width: 5%!important;
+          padding:0!important;
+          margin-left: 1rem;
+          margin-bottom: -0.3rem;;
+          transform:  rotateX(180deg);
+          
+    }
+    .review,
+    .text{
+     margin: 0.5rem 0 0 1rem;
+    }
+
+    .bi-star{
+     color: #FF9E00;
+      }
+      .button{
+        display: flex;
+        justify-content: flex-start;
+        margin: 4rem 52rem 2rem 0rem;
+      }
+      .btn-1{
+          background: #240046;
+          color: #fff;
+          border-radius: 0.3rem;
+          padding: 1rem 1.9rem;
+          font-size: 1.5rem;
+          margin-right: 2rem;
+      }
+      .btn-2{
+        background: #FF9E00;;
+        color: #111111;
+        border-radius: 0.3rem;
+        padding: 1rem 1.9rem;
+        font-size: 1.5rem;
+        margin-right: 2rem;
+    }
+    .Hamburger{
+        display: none;
+    }
+    .phone-header{
+        background-color: #ffffff;
+        width: 100%;
+        z-index: 3;
+    }
+    .phone-header > ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        background: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: bold;
+       
+    }
+    .phone-header > ul a{
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        color: #000;
+        outline: 1px solid #818181;
+    }
+    
+    .phone-header .menu-phn{
+        clear: both;
+        max-height: 0;
+    }
+    .phone-header .menu-icon{    
+        padding: 28px 20px;
+        position: relative;
+        float: left;
+        cursor: pointer;
+        top: -33px;
+    
+    }
+    .phone-header .menu-icon .nav-icon{
+        background: #333;
+        display: block;
+        height: 5px;
+        width: 63px;
+        position: relative;
+        transition: .2s ease-out;
+        top: -45px;
+    }
+    .phone-header .menu-icon .nav-icon:before{
+        background: #333;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: -19px;
+    }
+    .phone-header .menu-icon .nav-icon:after{
+        background: #333;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: 19px;
+    }
+    .phone-header .menu-btn{
+        display: none;
+    }
+    .phone-header .menu-btn:checked ~ .menu-phn{
+        overflow: visible;
+    }
+ 
+    .phone .fa{
+        float: right;
+        position: absolute;
+        top: 37px;
+        right: 37px;
+        font-size: 60px;
+    }
+    .phone-header .menu-btn:checked ~ .menu-icon .nav-icon{
+     background: transparent;
+    }
+    .phone-header .menu-btn:checked ~ .menu-icon .nav-icon:before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    .phone-header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    /*Client message*/
+    .messages-section{
+        margin-top: -77rem;
+    z-index: 1;
+    margin-left: 21rem;
+    padding: 3rem;
+    }
+    .function{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .whatsapp{
+        padding:1rem 2rem 0 0;
+    }
+    .whatsapp img{
+        width: 35rem;
+    }
+        
+    .purple-header{
+        background: #240046; 
+    width: 52rem;
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+letter-spacing: -0.02em;
+
+    }
+    .aside{
+        margin: -71rem 0 0 60rem;
+    }
+    .msg{
+        width: 88rem;
+        height: 90px;
+        font-size: 2rem;
+        padding-left: 2rem;
+        
+        
+    }
+    .msg::placeholder{
+        color: #240046;
+    }
+    .srch{
+        border-radius: 20px;
+        width: 35rem;
+        height: 61px;
+        border: 1px solid rgba(17, 17, 17, 0.5);
+        font-size: 1.5rem;
+        padding-left: 5rem;
+        margin-top: 0.3rem;
+       
+    }
+    .clt{
+        background: #fff;
+        margin-top: 1rem;
+        padding-top: 3rem;
+    }
+    .clt > .menu > ul{
+        width: 200px;
+        height: 1190px;
+
+    }
+    .function  > .bi-search{
+        font-size: 2rem;
+        color: #111111;
+        margin-bottom: -3.3rem;
+        margin-left: 1rem;
+        z-index: 1
+        
+    }
+    .chat{
+    background: rgba(36, 0, 70, 0.3);
+    border-radius: 20px;
+    width: 396.3px;
+    height: 102px;
+    margin: 6.8rem 0 6.8rem 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 9px 19px;
+    }
+    .chat-box{
+        padding-left: 1rem;
+    }
+    .second{
+        margin: 2rem 0 0 0rem;
+        padding: 71px 19px 64px 19px;
+        border: 1px solid black;
+        background: #fff;
+    }
+    .third{
+        padding-left: 81px;
+    }
+    .fourth{
+        margin: 2rem 0 0 0rem;
+        padding: 29px 19px 9px 34px;
+        border: 1px solid black;
+        background: #fff;
+        width: 216.3px;
+    height: 58px;
+    }
+    
+    /*Media Queries*/
+@media screen and (max-width: 391px) {
+    .header{
+        flex-direction: column;
+        min-width: 80rem;
+           
+        }
+   .nav-bar > nav{
+        margin: -9rem 1rem 0 56rem;
+    }
+   
+    .nav-bar > nav li{
+        font-size: 1.56rem;
+    }
+    .nav-bar ul{
+        padding-left: 1rem;
+    }
+    .bell{
+        padding-right: 1rem;
+    }
+    .fa-circle-user{
+        padding-left: 1rem;
+    }
+    
+    .caption{
+        font-size: 2rem;
+    }
+    
+   
+}
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    
+}
+@media screen and (max-width: 426px) {
+    .messages-section,
+        .aside{
+         margin: 0!important;
+        }
+        .aside{
+            margin-left: 3rem!important;
+        }
+        .msg{
+            width: 49rem;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border: 1px solid #fff;
+            font-size: 4rem;
+            font-weight: 700;
+            padding-left: 0;
+        }
+        .function > .bi-search{
+            margin-top: 1.5rem;
+        }
+        .srch{
+            margin-top: -0.7rem;
+            padding: 2.5rem 0 2.5rem 5rem;
+            width: 48rem;
+            font-size: 2.5rem;
+        }
+        .purple-header,
+        .whatsapp img{
+            width: 47rem;
+        }
+        .purple-header{
+            justify-content: flex-end;
+        }
+        .purple-header > p{
+            margin-right: 2rem;
+        }
+        .chat-box{
+            font-size: 2rem;
+        }
+        .third{
+            width: 613px;
+            margin-left: 8rem;
+        }
+        .fourth{
+            width: 311.3px;
+            height: 87px;
+        }
+        .clt{
+            display: none;
+        }
+        
+    }
+    
+
+@media screen and (min-width :767px) and (max-width: 900px) {
+    .filter{
+        margin-left: 30rem!important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .logo{
+        margin-left: 2rem;
+    }
+    .logo img{
+        width: 20rem;
+        margin-left: -24rem;
+    }
+    .bi-list{
+        font-size: 8rem;
+    }
+    .bi:before{
+        vertical-align: 0.13em!important;
+    }
+    .search{
+        padding: 0.3rem 0rem 0.3rem 2.8rem;
+        font-size: 2rem;
+        border-radius: 1.6rem;
+    }
+    .search-bar{
+        padding: 0 0 6rem 0;
+      
+    }
+    .fa-magnifying-glass {
+        font-size: 1.7rem;
+        left: 28rem;
+        top: 4.4rem;
+    }
+    .Hamburger{
+        display: block;
+        z-index: 2;
+    }
+    .home-section{
+        display: none;
+    }
+    .box{
+        padding-left: 0;
+    }
+    .filter{
+        margin-top: 7rem;
+        margin-left: 39rem;
+    }
+   
+    .container >select{
+        font-size: 2rem;
+        padding-right: 15.5rem!important;
+        border-radius: 2.6rem!important;
+
+    }
+    .pictures-container{
+        min-width: 75rem;
+        margin-left: 4rem!important;
+        justify-content: flex-start;
+    }
+    .header{
+        min-width: 80rem;
+           
+        }
+        .caption{
+            font-size: 2rem;
+        }
+        .picture-container{
+            width: 40ch;
+        }
+        
+}
+@media screen and (min-width :901px) and (max-width: 1101px) {
+    .filter{
+        margin-left: 60rem!important;
+        
+    }
+    .pictures-container{
+        min-width: 75rem;
+        margin-left: 28rem!important;
+       
+    }
+    
+}
+@media screen and (min-width :1100px) and (max-width: 1300px) {
+    .filter{
+        margin-left: 52rem!important;
+    }
+    .pictures-container{
+        margin-left: 26em!important;
+    }
+   
+}
+@media screen and (min-width :1300px) and (max-width: 1440px) {
+    .filter{
+        margin-left: 40rem!important;
+    }
+    .pictures-container{
+        margin-left: 26em!important;
+    }
+    
+}
